@@ -132,7 +132,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_V2ray_Geodata
 	bool "Include V2ray_Geodata"
 	select PACKAGE_v2ray-geoip
 	select PACKAGE_v2ray-geosite
-	default n
+	default y
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_V2ray_Plugin
 	bool "Include V2ray-Plugin (Shadowsocks Plugin)"
